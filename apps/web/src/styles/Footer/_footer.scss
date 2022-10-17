@@ -1,0 +1,241 @@
+#footer{
+    background: #015B55;
+    position: relative;
+    padding: 17px 0 30px 0;
+    .holder{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        .container-fluid{
+            display: flex;
+            .logo-derecho{
+                width: 232px;
+                .logo{
+                    width: 192px;
+                    height: 141px;
+                    span{
+                        width: 192px !important;
+                        height: 141px !important;
+                        position: relative !important;
+                    }
+                }
+                .derechos{
+                    margin: 44px 0 0 0;
+                    h5{
+                        font-family: "OpenSans-Bold";
+                        font-size: 10px;
+                        color: #FFFFFF;
+                    }
+                    h6{
+                        font-family: "OpenSans-Bold";
+                        font-size: 10px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+            .extras{
+                display: flex;
+                .direccion{
+                    width: 195px;
+                    margin-left: 80px;
+                    margin-top: 32px;
+                    h4{
+                        font-family: "OpenSans-Bold";
+                        font-size: 18px;
+                        color: #FAAE43;
+                    }
+                    h5{
+                        font-family: "OpenSans-Regular";
+                        font-size: 13px;
+                        color: #FFFFFF;
+                        margin-top: 11px;
+                    }
+                    h6{
+                        font-family: "OpenSans-Regular";
+                        font-size: 10px;
+                        color: #FFFFFF;
+                    }
+                    span{
+                        font-family: "OpenSans-Regular";
+                        font-size: 12px;
+                        color: #FFFFFF;
+                    }
+                }
+                .redes{
+                    width: 108px;
+                    margin-top: 32px;
+                    margin-left: 33px;
+                    h4{
+                        font-family: "OpenSans-Bold";
+                        font-size: 18px;
+                        color: #FAAE43;
+                    }
+                    .icons{
+                        display: flex;
+                        margin-top: 29px;
+                        .facebook{
+                            width: 24px;
+                            height: 23px;
+                            margin-right: 12.5px;
+                            span{
+                                width: 24px !important;
+                                height: 23px !important;
+                                position: relative !important;
+                            }
+                        }
+                        .instagram{
+                            width: 24px;
+                            height: 23px;
+                            margin-left: 12.5px;
+                            span{
+                                width: 24px !important;
+                                height: 23px !important;
+                                position: relative !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .logo-goplek{
+                width: 53px;
+                height: 15px;
+                position: absolute;
+                bottom: 30px;
+                right: 181px;
+                span{
+                    width: 53px !important;
+                    height: 15px !important;
+                }
+            }
+            .logo-derechos{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    #footer{
+        background: #015B55;
+        position: relative;
+        padding: 48px 0 39px 0;
+        .holder{
+            max-width: 1300px;
+            width: 100%;
+            margin: 0 auto;
+            .container-fluid{
+                display: block;
+                .logo-derecho{
+                    width: 232px;
+                    .logo{
+                        width: 128px;
+                        height: 87px;
+                        margin-left: 20px;
+                        span{
+                            width: 128px !important;
+                            height: 87px !important;
+                            position: relative !important;
+                        }
+                    }
+                    .derechos{
+                        display: none;
+                    }
+                }
+                .extras{
+                    display: flex;
+                    .direccion{
+                        width: 195px;
+                        margin-left: 20px;
+                        margin-top: 32px;
+                        h4{
+                            font-family: "OpenSans-Bold";
+                            font-size: 18px;
+                            color: #FAAE43;
+                        }
+                        h5{
+                            font-family: "OpenSans-Regular";
+                            font-size: 13px;
+                            color: #FFFFFF;
+                            margin-top: 11px;
+                        }
+                        h6{
+                            font-family: "OpenSans-Regular";
+                            font-size: 10px;
+                            color: #FFFFFF;
+                        }
+                        span{
+                            font-family: "OpenSans-Regular";
+                            font-size: 12px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .redes{
+                        width: 108px;
+                        margin-top: 32px;
+                        margin-left: 72px;
+                        h4{
+                            font-family: "OpenSans-Bold";
+                            font-size: 18px;
+                            color: #FAAE43;
+                        }
+                        .icons{
+                            display: flex;
+                            margin-top: 29px;
+                            .facebook{
+                                width: 24px;
+                                height: 23px;
+                                margin-right: 12.5px;
+                                span{
+                                    width: 24px !important;
+                                    height: 23px !important;
+                                    position: relative !important;
+                                }
+                            }
+                            .instagram{
+                                width: 24px;
+                                height: 23px;
+                                margin-left: 12.5px;
+                                span{
+                                    width: 24px !important;
+                                    height: 23px !important;
+                                    position: relative !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                .logo-goplek{
+                    display: none;
+                }
+                .logo-derechos{
+                    display: flex;
+                    .derechos{
+                        margin: 44px 20px 0 20px;
+                        width: 128px;
+                        h5{
+                            font-family: "OpenSans-Bold";
+                            font-size: 10px;
+                            color: #FFFFFF;
+                        }
+                        h6{
+                            font-family: "OpenSans-Bold";
+                            font-size: 10px;
+                            color: #FFFFFF;
+                        }
+                    }
+                    .logo-goplek{
+                        width: 53px;
+                        height: 15px;
+                        position: absolute;
+                        bottom: 30px;
+                        right: 20px;
+                        display: block;
+                        span{
+                            width: 53px !important;
+                            height: 15px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

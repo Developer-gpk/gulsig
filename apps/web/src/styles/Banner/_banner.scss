@@ -1,0 +1,149 @@
+#banner{
+    
+    .imagen{
+        width: 100%;
+        height: 899px;
+        span{
+            width: 100% !important;
+            height: 899px !important;
+        }
+    }
+    .imagenDesk{
+        display: none;
+    }
+    .holder{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 1300px;
+        width: 100%;
+
+        .dulce-1{
+            width: 117px;
+            height: 96px;
+            top: 0px;
+            position: absolute;
+            left: 80px;
+            span{
+                width: 117px !important;
+                height: 96px !important;
+            }
+        }
+        h1{
+            width: 490px;
+            height: 43px;
+            margin: 116px auto 0 auto;
+            font-family: "OpenSans-Bold";
+            font-size: 35px;
+            color: #FFFFFF;
+        }
+        .logo{
+            width: 336px;
+            height: 168px;
+            margin: 12px auto 0 auto;
+            span{
+                width: 336px !important;
+                height: 168px !important;
+                position: relative !important;
+            }
+        }
+        h2{
+            width: 690px;
+            height: 98px;
+            margin: -7px auto 0 auto;
+            font-family: "Candle Light";
+            font-size: 52px;
+            color: #67293C;
+            text-align: center;
+        }
+        .dulce-2{
+            width: 89px;
+            height: 73px;
+            bottom: -200px;
+            right: 0;
+            position: absolute;
+            span{
+                width: 89px !important;
+                height: 73px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    #banner{
+    
+        .imagen{
+            display: none;
+        }
+        .imagenDesk{
+            width: 100%;
+            height: 736px;
+            display: block;
+            span{
+                width: 100% !important;
+                height: 736px !important;
+            }
+        }
+        .holder{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 100%;
+    
+            .dulce-1{
+                width: 53px;
+                height: 44px;
+                top: -50px;
+                position: absolute;
+                left: 52px;
+                span{
+                    width: 53px !important;
+                    height: 44px !important;
+                }
+            }
+            h1{
+                width: 350px;
+                height: 43px;
+                margin: 116px auto 0 auto;
+                font-family: "OpenSans-Bold";
+                font-size: 25px;
+                color: #FFFFFF;
+            }
+            .logo{
+                width: 256px;
+                height: 128px;
+                margin: 12px auto 0 auto;
+                span{
+                    width: 256px !important;
+                    height: 128px !important;
+                    position: relative !important;
+                }
+            }
+            h2{
+                width: 100%;
+                height: 74px;
+                margin: -7px auto 0 auto;
+                font-family: "Candle Light";
+                font-size: 40px;
+                color: #67293C;
+                text-align: center;
+            }
+            .dulce-2{
+                width: 49px;
+                height: 41px;
+                bottom: -100px;
+                right: 125px;
+                position: absolute;
+                span{
+                    width: 49px !important;
+                    height: 41px !important;
+                }
+            }
+        }
+    }
+}

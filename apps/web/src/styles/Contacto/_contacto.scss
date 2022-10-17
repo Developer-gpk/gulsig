@@ -1,0 +1,130 @@
+@import '../FormularioContacto/formularioContacto';
+
+#contacto{
+    position: relative;
+    .holder{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+
+        .dulce-3{
+            width: 53px;
+            height: 106px;
+            position: absolute;
+            top: -95px;
+            span{
+                width: 53px !important;
+                height: 106px !important;
+            }
+        }
+        .dulce-4{
+            width: 44px;
+            height: 72px;
+            position: absolute;
+            top: -50px;
+            right: 500px;
+            transform: rotate(-25deg);
+            span{
+                width: 44px !important;
+                height: 72px !important;
+            }
+        }
+        
+        .logo-text{
+            width: 400px;
+            height: 48px;
+            margin: 97px auto 0 auto;
+            span{
+                width: 400px !important;
+                height: 48px !important;
+                margin: 0 auto !important;
+            }
+        }
+        h3{
+            width: 374px;
+            height: 58px;
+            font-family: "OpenSans-Regular";
+            font-size: 21px;
+            color: rgba(205,100,106, 0.7);
+            margin: 7px auto 0 auto;
+            text-align: center;
+            span{
+                font-family: "OpenSans-Bold";
+                color: rgba(205,100,106, 1);
+            }
+        }
+        .dulce-5{
+            width: 44px;
+            height: 44px;
+            position: absolute;
+            top: 25px;
+            left: 461px;
+            span{
+                width: 44px !important;
+                height: 44px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    #contacto{
+        position: relative;
+        .holder{
+            max-width: 1300px;
+            width: 100%;
+            margin: 0 auto;
+    
+            .dulce-3{
+                display: none;
+            }
+            .dulce-4{
+                width: 26px;
+                height: 42px;
+                position: absolute;
+                top: -100px;
+                right: 27px;
+                transform: rotate(-25deg);
+                span{
+                    width: 26px !important;
+                    height: 42px !important;
+                }
+            }
+            .logo-text{
+                width: 400px;
+                height: 48px;
+                margin: 97px auto 0 auto;
+                span{
+                    width: 400px !important;
+                    height: 48px !important;
+                    margin: 0 auto !important;
+                }
+            }
+            h3{
+                width: 374px;
+                height: 58px;
+                font-family: "OpenSans-Regular";
+                font-size: 21px;
+                color: rgba(205,100,106, 0.7);
+                margin: 7px auto 0 auto;
+                text-align: center;
+                span{
+                    font-family: "OpenSans-Bold";
+                    color: rgba(205,100,106, 1);
+                }
+            }
+            .dulce-5{
+                width: 24px;
+                height: 24px;
+                position: absolute;
+                top: 25px;
+                left: 38px;
+                span{
+                    width: 24px !important;
+                    height: 24px !important;
+                }
+            }
+        }
+    }
+    
+}

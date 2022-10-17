@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>facebook-f</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="23"></rect>
+    </defs>
+    <g id="SPLASH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-653.000000, -1820.000000)">
+            <g id="facebook-f" transform="translate(647.000000, 1819.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M15.8286814,4.48602615 L18,4.48602615 L18,1.14703114 C16.9487022,1.04764565 15.8923839,0.998578006 14.8354187,1.00003136 C11.6939365,1.00003136 9.54571704,2.74302875 9.54571704,5.93502399 L9.54571704,8.68601988 L6,8.68601988 L6,12.4240143 L9.54571704,12.4240143 L9.54571704,22 L13.7959577,22 L13.7959577,12.4240143 L17.3301251,12.4240143 L17.8614052,8.68601988 L13.7959577,8.68601988 L13.7959577,6.30252344 C13.7959577,5.20002509 14.1193455,4.48602615 15.8286814,4.48602615 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Candle Light";
+    src: url("../fonts/Candle\ Light\ FREE.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-BoldItalic";
+    src: url("../fonts/OpenSans-BoldItalic.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-ExtraBoldItalic";
+    src: url("../fonts/OpenSans-ExtraBoldItalic.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../fonts/OpenSans-Italic.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-LightItalic";
+    src: url("../fonts/OpenSans-LightItalic.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Medium";
+    src: url("../fonts/OpenSans-Medium.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-MediumItalic";
+    src: url("../fonts/OpenSans-MediumItalic.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "OpenSans-SemiBoldItalic";
+    src: url("../fonts/OpenSans-SemiBoldItalic.ttf");
+    font-display: swap;
+}
+
+@import './Banner/banner';
+@import './Contacto/contacto';
+@import './Footer/footer';

@@ -1,0 +1,242 @@
+.contacto{
+    h4{
+        width: 196px;
+        height: 54px;
+        font-family: "Candle Light";
+        font-size: 45px;
+        margin: 112px auto 0 auto;
+        color: #BD2C5E;
+    }
+    .dulce-6{
+        width: 89px;
+        height: 73px;
+        position: absolute;
+        top: 240px;
+        right: 217px;
+        span{
+            width: 89px !important;
+            height: 73px !important;
+        }
+    }
+    .formulario{
+        display: flex;
+        margin: 26px auto 74px auto;
+        .izquierda{
+            width: 369px;
+            margin: 0 25px 0 auto;
+            .input{
+                label{
+                    display: block;
+                    margin-top: 20px;
+                    font-family: "OpenSans-Regular";
+                    font-size: 13px;
+                    color: #61AE9C;
+                }
+                input{
+                    width: 369px;
+                    height: 45px;
+                    margin-top: 8px;
+                    padding: 5px 10px;
+                    background:rgba( 72, 178, 171, 0.3);
+                    border: none;
+                    border-radius: 5px;
+                    color: #61AE9C;
+                    font-family: "OpenSans-Regular";
+                    font-size: 13px;
+                    &:focus-visible{
+                        outline: none;
+                    }
+                }
+                .isError{
+                    outline: 1px solid red;
+                    transition: all .5s ease-in-out;
+                }
+            }
+        }
+        .derecha{
+            width: 508px;
+            margin: 0 auto 0 25px;
+            .input{
+                label{
+                    display: block;
+                    margin-top: 20px;
+                    font-family: "OpenSans-Regular";
+                    font-size: 13px;
+                    color: #61AE9C;
+                }
+                textarea{
+                    width: 508px;
+                    height: 227px;
+                    margin-top: 8px;
+                    padding: 5px 10px;
+                    background:rgba( 72, 178, 171, 0.3);
+                    border: none;
+                    border-radius: 5px;
+                    color: #61AE9C;
+                    font-family: "OpenSans-Regular";
+                    font-size: 13px;
+                    &:focus-visible{
+                        outline: none;
+                    }
+                }
+            }
+            .submit{
+                text-align: end;
+                margin-top: 19px;
+                button{
+                    width: 162px;
+                    height: 49px;
+                    background: #BD2C5E;
+                    outline: none;
+                    border: none;
+                    border-radius: 24.5px;
+                    font-size: 33px;
+                    color: #FFFFFF;
+                    font-family: "Candle Light";
+                    cursor: pointer;
+                }
+            }
+        }
+        .enviando{
+            width: 100%;
+            height: 345px;
+            text-align: center;
+            h6{
+                width: 248px;
+                height: 33px;
+                font-family: "OpenSans-Regular";
+                font-size: 24px;
+                color: #BD2C5E;
+                margin: 72px auto;
+            }
+        }
+        .dulce-7{
+            width: 98px;
+            height: 41px;
+            position: absolute;
+            bottom: 20px;
+            left: 179px;
+            transform: rotate(24deg);
+            span{
+                width: 98px !important;
+                height: 41px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .contacto{
+        h4{
+            width: 152px;
+            height: 42px;
+            font-family: "Candle Light";
+            font-size: 45px;
+            margin: 58px auto 0 auto;
+            color: #BD2C5E;
+        }
+        .dulce-6{
+            width: 55px;
+            height: 45px;
+            position: absolute;
+            top: 140px;
+            right: 34px;
+            span{
+                width: 55px !important;
+                height: 45px !important;
+            }
+        }
+        .formulario{
+            display: block;
+            margin: 26px auto 74px auto;
+            .izquierda{
+                width: 369px;
+                margin: 0 25px 0 auto;
+                .input{
+                    label{
+                        display: block;
+                        margin-top: 20px;
+                        font-family: "OpenSans-Regular";
+                        font-size: 13px;
+                        color: #61AE9C;
+                    }
+                    input{
+                        width: 100%;
+                        height: 45px;
+                        margin-top: 8px;
+                        padding: 5px 10px;
+                        background:rgba( 72, 178, 171, 0.3);
+                        border: none;
+                        border-radius: 5px;
+                        color: #61AE9C;
+                        font-family: "OpenSans-Regular";
+                        font-size: 13px;
+                        &:focus-visible{
+                            outline: none;
+                        }
+                    }
+                    .isError{
+                        outline: 1px solid red;
+                        transition: all .5s ease-in-out;
+                    }
+                }
+            }
+            .derecha{
+                width: 369px;
+                margin: 0 25px 0 auto;
+                .input{
+                    label{
+                        display: block;
+                        margin-top: 20px;
+                        font-family: "OpenSans-Regular";
+                        font-size: 13px;
+                        color: #61AE9C;
+                    }
+                    textarea{
+                        width: 369px;
+                        height: 227px;
+                        margin-top: 8px;
+                        padding: 5px 10px;
+                        background:rgba( 72, 178, 171, 0.3);
+                        border: none;
+                        border-radius: 5px;
+                        color: #61AE9C;
+                        font-family: "OpenSans-Regular";
+                        font-size: 13px;
+                        &:focus-visible{
+                            outline: none;
+                        }
+                    }
+                }
+                .submit{
+                    text-align: end;
+                    margin-top: 19px;
+                    button{
+                        width: 150px;
+                        height: 46px;
+                        background: #BD2C5E;
+                        outline: none;
+                        border: none;
+                        border-radius: 24.5px;
+                        font-size: 27px;
+                        color: #FFFFFF;
+                        font-family: "Candle Light";
+                        cursor: pointer;
+                    }
+                }
+            }
+            .dulce-7{
+                width: 66px;
+                height: 28px;
+                position: absolute;
+                bottom: -15px;
+                left: 20px;
+                transform: rotate(24deg);
+                span{
+                    width: 66px !important;
+                    height: 28px !important;
+                }
+            }
+        }
+    }
+}
