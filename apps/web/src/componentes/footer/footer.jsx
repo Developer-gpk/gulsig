@@ -51,10 +51,10 @@ export default function Footer(){
                         <div className='redes'>
                             <h4>Síguenos en</h4>
                             <div className='icons'>
-                                <a href='https://www.facebook.com' className='facebook' onClick={gaFooter('Contacto', 'Abrir Facebook', '')} target='_blank' rel="noopener noreferrer">
+                                <a href='https://www.facebook.com/gulsigagranel' className='facebook' onClick={gaFooter('Contacto', 'Abrir Facebook', '')} target='_blank' rel="noopener noreferrer">
                                     <Image src={IconFacebook} layout="fill" alt='Icono Facebook' />
                                 </a>
-                                <a href='https://www.instagram.com' className='instagram' onClick={gaFooter('Contacto', 'Abrir Instagram', '')} target='_blank' rel="noopener noreferrer">
+                                <a href='https://www.instagram.com/gulsig.agranel/?igshid=YmMyMTA2M2Y%3D' className='instagram' onClick={gaFooter('Contacto', 'Abrir Instagram', '')} target='_blank' rel="noopener noreferrer">
                                     <Image src={IconInstagram} layout="fill" alt='Icono Instagram' />
                                 </a>
                             </div>
