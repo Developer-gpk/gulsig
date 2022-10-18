@@ -14,6 +14,11 @@ export default function Template({children}){
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="icon" href="/Artboard.png" type="image/x-icon" />
             </Head>
+            <noscript>
+                <img height="1" width="1" 
+                src="https://www.facebook.com/tr?id=889448342020241&ev=PageView
+                &noscript=1"/>
+            </noscript>
             <div style={{ overflow: "hidden"}}>
                 {children}
             </div>

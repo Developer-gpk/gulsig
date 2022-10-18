@@ -15,7 +15,7 @@ export default function Banner(){
             <div className='holder'>
                 <div className='container-fluid'>
                     <div className='dulce-1'>
-                        <ScrollParallax isAbsolutelyPositioned>
+                        <ScrollParallax isAbsolutelyPositioned strength="0.10" lerpEase="0.10">
                             <Image src={Dulce1} layout="fill" alt='Dulces a granel' />
                         </ScrollParallax>
                     </div>
