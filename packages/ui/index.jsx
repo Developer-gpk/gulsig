@@ -12,6 +12,7 @@ import CoverMobile from './imagenes/CoverMovil.jpg'
 import Dulce4 from './imagenes/Recurso 2@5.png'
 import Dulce5 from './imagenes/Recurso 3@3.png'
 import Dulce6 from './imagenes/Recurso 4@7.png'
+import Favicon from './icons/Artboard.png'
 
 export{
     Cover,
@@ -27,5 +28,6 @@ export{
     CoverMobile,
     Dulce4,
     Dulce5,
-    Dulce6
+    Dulce6,
+    Favicon
 }

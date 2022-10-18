@@ -31,9 +31,14 @@ export default function FormularioContacto(){
                 onSubmit={async (values, { setSubmitting }) =>{
                     await setTimeout(() =>{
                         setSubmitting(true)
+                        emailjs.send(
+                            'service_l2eiae9',
+                            'template_lk6yb6j',
+                            values,
+                            'kpo2EQ7r0zH3MVQRy'
+                        )
                     }, 5000)
-                    setSubmitting(false)
-                    console.log(values)
+                    await setSubmitting(false)
                 }}
             >
                 {props =>(
