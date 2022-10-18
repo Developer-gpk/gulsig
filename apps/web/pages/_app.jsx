@@ -5,16 +5,15 @@ import Script from 'next/script';
 export default function MyApp({ Component, pageProps }){
     return(
         <>
-            <Script id='analytics-cdn' strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-SSSMX98E3Y`} />
+            <Script id='analytics-cdn' strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=UA-246056744-1`} />
             <Script id='googleAds-cdn' strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=AW-11002374286`} />
             <Script id='script-analytics' strategy="lazyOnload">
                 {`
                       window.dataLayer = window.dataLayer || [];
                       function gtag(){dataLayer.push(arguments);}
                       gtag('js', new Date());
-                      gtag('config', 'G-SSSMX98E3Y', {
-                      page_path: window.location.pathname,
-                      });
+                    
+                      gtag('config', 'UA-246056744-1');
                 `}
             </Script>
             <Script id='script-googleads' strategy="lazyOnload">
