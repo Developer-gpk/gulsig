@@ -27,10 +27,14 @@ export default function Footer(){
                             <h4>Síguenos en</h4>
                             <div className='icons'>
                                 <div className='facebook'>
-                                    <Image src={IconFacebook} layout="fill" alt='Icono Facebook' />
+                                   <a href="https://www.facebook.com/gulsigagranel">
+                                        <Image src={IconFacebook} layout="fill" alt='Icono Facebook' />
+                                    </a>
                                 </div>
                                 <div className='instagram'>
-                                    <Image src={IconInstagram} layout="fill" alt='Icono Instagram' />
+                                    <a href="https://www.instagram.com/gulsig.agranel/?igshid=YmMyMTA2M2Y%3D">
+                                        <Image src={IconInstagram} layout="fill" alt='Icono Instagram' />
+                                    </a>
                                 </div>
                             </div>
                         </div>
