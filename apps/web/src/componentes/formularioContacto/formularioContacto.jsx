@@ -11,7 +11,32 @@ export default function FormularioContacto(){
         nombre : Yup.string().required(),
         telefono: Yup.string().required(),
         email: Yup.string().email().required()
-    })
+    });
+
+    const ga = function(category, action, label) {
+        if ("function" === typeof gtag
+            && "string" === typeof category
+            && "string" === typeof action) {
+            var object = {
+                "event_action": action,
+                "event_label" : label || ''
+            };
+
+            // Send to Google Analytics.
+            gtag('event', category, object);
+
+            // Print in console.
+            if ("console" in window) {
+                console.log(
+                    'ga: [category: %s, action: %s, label: %s]',
+                    category,
+                    object['event_action'],
+                    object['event_label']
+                );
+            }
+        }
+    }
+
     return(
         <div className='contacto'>
             <h4>Contacto</h4>
@@ -66,7 +91,7 @@ export default function FormularioContacto(){
                                             <Field as="textarea" name="mensaje" id="mensaje" rows="7"></Field>
                                         </div>
                                         <div className='submit'>
-                                            <button type='submit'>Enviar</button>
+                                            <button type='submit' onClick={ga('Contacto', 'Enviar Formulario', '')}>Enviar</button>
                                         </div>
                                     </div>
                                     <div className='dulce-7'>

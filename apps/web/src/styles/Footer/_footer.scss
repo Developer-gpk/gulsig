@@ -74,6 +74,8 @@
                         display: flex;
                         margin-top: 29px;
                         .facebook{
+                            display: block;
+                            cursor: pointer;
                             width: 24px;
                             height: 23px;
                             margin-right: 12.5px;
@@ -84,6 +86,8 @@
                             }
                         }
                         .instagram{
+                            display: block;
+                            cursor: pointer;
                             width: 24px;
                             height: 23px;
                             margin-left: 12.5px;
