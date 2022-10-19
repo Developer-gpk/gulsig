@@ -36,7 +36,17 @@ export default function FormularioContacto(){
             }
         }
     }
+    const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
+    async function handleSubmit(values) {
+        emailjs.send(
+            'service_l2eiae9',
+            'template_lk6yb6j',
+            values,
+            'kpo2EQ7r0zH3MVQRy'
+        )
+        await delay(4000);
+    }
     return(
         <div className='contacto'>
             <h4>Contacto</h4>
@@ -53,41 +63,31 @@ export default function FormularioContacto(){
                     mensaje: ""
                 }}
                 validationSchema={validation}
-                onSubmit={async (values, { setSubmitting }) =>{
-                    await setTimeout(() =>{
-                        setSubmitting(true)
-                        emailjs.send(
-                            'service_l2eiae9',
-                            'template_lk6yb6j',
-                            values,
-                            'kpo2EQ7r0zH3MVQRy'
-                        )
-                    }, 5000)
-                    await setSubmitting(false)
-                }}
+                onSubmit={handleSubmit}
             >
-                {props =>(
+                {({isSubmitting, errors, touched}) =>(
                     <Form>
-                        <div className='formulario'>
-                            {!props.isSubmitting ? (
+                        <div className='formulario'>  
+                            {isSubmitting == false ? (
                                 <>
+                                    <h1>{isSubmitting}</h1>
                                     <div className='izquierda'>
                                         <div className='input'>
                                             <label htmlFor="nombre">Nombre*</label>
-                                            <Field type="text" name='nombre' id='nombre' className={`${props.errors.nombre && props.touched.nombre ? ("isError") : null}`} />
+                                            <Field type="text" name='nombre' id='nombre' className={`${errors.nombre && touched.nombre ? ("isError") : null}`} />
                                         </div>
                                         <div className='input'>
                                             <label htmlFor="telefono">Telefono*</label>
-                                            <Field type="text" name='telefono' id='telefono' className={`${props.errors.telefono && props.touched.telefono ? ("isError") : null}`}  />
+                                            <Field type="text" name='telefono' id='telefono' className={`${errors.telefono && touched.telefono ? ("isError") : null}`}  />
                                         </div>
                                         <div className='input'>
                                             <label htmlFor="email">Email*</label>
-                                            <Field type="text" name='email' id='email' className={`${props.errors.email && props.touched.email ? ("isError") : null}`}  />
+                                            <Field type="text" name='email' id='email' className={`${errors.email && touched.email ? ("isError") : null}`}  />
                                         </div>
                                     </div>
                                     <div className='derecha'>
                                         <div className='input'>
-                                            <label htmlFor="mensaje">Email*</label>
+                                            <label htmlFor="mensaje">Mensaje</label>
                                             <Field as="textarea" name="mensaje" id="mensaje" rows="7"></Field>
                                         </div>
                                         <div className='submit'>
