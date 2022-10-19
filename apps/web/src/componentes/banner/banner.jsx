@@ -7,10 +7,10 @@ export default function Banner(){
     return(
         <section className='' id='banner'>
             <div className='imagen'>
-                <Image src={Cover} layout="fill" alt='Gulsig a granel tienda y proveedor de dulces a granel' />
+                <Image src={Cover} layout="fill" alt='Gulsig a granel tienda y proveedor de dulces a granel' quality={100} />
             </div>
             <div className='imagenDesk'>
-                <Image src={CoverMobile} layout="fill" alt='Gulsig a granel tienda y proveedor de dulces a granel' />
+                <Image src={CoverMobile} layout="fill" alt='Gulsig a granel tienda y proveedor de dulces a granel' quality={100} />
             </div>
             <div className='holder'>
                 <div className='container-fluid'>
