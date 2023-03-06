@@ -32,7 +32,7 @@ export default function Footer(){
     }
     const search = () => {
         ga.event({
-            action: "Abrir Facebook",
+            action: "Abrir Algo",
             params : {
                 search_term: query
             }
