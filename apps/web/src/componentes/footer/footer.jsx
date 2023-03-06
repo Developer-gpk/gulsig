@@ -5,7 +5,7 @@ import { LogoFooter, IconFacebook, IconInstagram, LogoGoplek } from 'ui'
 
 export default function Footer(){
 
-    const [query, setQuery] = useState("");
+    const [query, setQuery] = useState("Prueba de algo");
 
     const gaFooter = function(category, action, label) {
         if ("function" === typeof gtag
