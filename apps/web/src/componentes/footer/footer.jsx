@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import { LogoFooter, IconFacebook, IconInstagram, LogoGoplek } from 'ui'
 
@@ -27,7 +27,16 @@ export default function Footer(){
             }
         }
     }
-
+    useEffect(() =>{
+        function trackOutboundLink(link, category, action) {
+            ga('send', 'event', category, action, {
+              'transport': 'beacon',
+              'hitCallback': function() {
+                document.location = link.href;
+              }
+            });
+         }
+    }, [])
     return(
         <section className='' id='footer'>
             <div className='holder'>
@@ -51,7 +60,7 @@ export default function Footer(){
                         <div className='redes'>
                             <h4>Síguenos en</h4>
                             <div className='icons'>
-                                <a href='https://www.facebook.com/gulsigagranel' className='facebook' onClick={gaFooter('Contacto', 'Abrir Facebook', '')} target='_blank' rel="noopener noreferrer">
+                                <a href='https://www.facebook.com/gulsigagranel' className='facebook' onClick={trackOutboundLink("https://www.facebook.com/gulsigagranel", 'Facebook', 'Clic en Facebook')} target='_blank' rel="noopener noreferrer">
                                     <Image src={IconFacebook} layout="fill" alt='Icono Facebook' />
                                 </a>
                                 <a href='https://www.instagram.com/gulsig.agranel/?igshid=YmMyMTA2M2Y%3D' className='instagram' onClick={gaFooter('Contacto', 'Abrir Instagram', '')} target='_blank' rel="noopener noreferrer">
